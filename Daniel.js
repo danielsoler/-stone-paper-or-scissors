@@ -50,7 +50,7 @@ if (seleccionj1 == piedra ||
 		} else if (seleccionj1 == tijera && seleccionj2 == tijera) {
 			console.log ("empate")
 		}
-	}	
+	}
 }
 {
 	if (seleccionj1 != piedra){
@@ -61,8 +61,7 @@ if (seleccionj1 == piedra ||
 		}
 	}
 }
-jugador2 = prompt("hola jugador2, como es tu nombre?")
-seleccionj2 = prompt(jugador2 + " " + "juega")
+
 {
 	if (seleccionj2 != piedra){
 		if (seleccionj2 != papel){
